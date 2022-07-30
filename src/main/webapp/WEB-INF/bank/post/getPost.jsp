@@ -72,7 +72,7 @@
 		<div class=" text-lg-end">
 			<form>
 				<input type="hidden" id="id" value="${post.id}" />
-				<button type="button" id="btn-reply" class="btn btn-secondary">덧글등록</button>
+				<button type="button" id="btn-reply" class="btn btn-secondary">댓글등록</button>
 			</form>
 				
 		</div>

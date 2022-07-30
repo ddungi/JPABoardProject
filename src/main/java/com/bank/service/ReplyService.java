@@ -1,4 +1,4 @@
-package com.fastcampus.service;
+package com.bank.service;
 
 
 import org.modelmapper.ModelMapper;
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.Reply;
-import com.fastcampus.dto.ReplyDto;
-import com.fastcampus.persistence.PostRepository;
-import com.fastcampus.persistence.ReplyRepository;
-import com.fastcampus.security.jpa.UserDetailsImpl;
+import com.bank.domain.Reply;
+import com.bank.dto.ReplyDto;
+import com.bank.persistence.PostRepository;
+import com.bank.persistence.ReplyRepository;
+import com.bank.security.jpa.UserDetailsImpl;
 
 @Service
 public class ReplyService {

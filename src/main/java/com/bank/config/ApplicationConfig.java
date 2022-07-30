@@ -1,4 +1,4 @@
-package com.fastcampus.config;
+package com.bank.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,11 +1,11 @@
-package com.fastcampus.persistence;
+package com.bank.persistence;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.fastcampus.domain.User;
+import com.bank.domain.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {

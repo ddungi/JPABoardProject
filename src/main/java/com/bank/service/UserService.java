@@ -1,4 +1,4 @@
-package com.fastcampus.service;
+package com.bank.service;
 
 import java.util.Optional;
 
@@ -7,9 +7,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fastcampus.domain.User;
-import com.fastcampus.dto.UserDto;
-import com.fastcampus.persistence.UserRepository;
+import com.bank.domain.User;
+import com.bank.dto.UserDto;
+import com.bank.persistence.UserRepository;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.fastcampus.service;
+package com.bank.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,10 +12,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.Post;
-import com.fastcampus.dto.PostDto;
-import com.fastcampus.persistence.PostRepository;
-import com.fastcampus.security.jpa.UserDetailsImpl;
+import com.bank.domain.Post;
+import com.bank.dto.PostDto;
+import com.bank.persistence.PostRepository;
+import com.bank.security.jpa.UserDetailsImpl;
 
 @Service
 public class PostService {

@@ -18,10 +18,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.User;
-import com.fastcampus.dto.UserDto;
-import com.fastcampus.persistence.UserRepository;
-import com.fastcampus.service.UserService;
+import com.bank.domain.User;
+import com.bank.dto.UserDto;
+import com.bank.persistence.UserRepository;
+import com.bank.service.UserService;
 
 @Transactional
 @ExtendWith(MockitoExtension.class)

@@ -1,4 +1,4 @@
-package com.fastcampus.controller;
+package com.bank.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.fastcampus.dto.ReplyDto;
-import com.fastcampus.security.jpa.UserDetailsImpl;
-import com.fastcampus.service.ReplyService;
+import com.bank.dto.ReplyDto;
+import com.bank.security.jpa.UserDetailsImpl;
+import com.bank.service.ReplyService;
 
 
 @Controller

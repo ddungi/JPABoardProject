@@ -1,4 +1,4 @@
-package com.fastcampus.domain;
+package com.bank.domain;
 
 import java.sql.Timestamp;
 import java.util.List;

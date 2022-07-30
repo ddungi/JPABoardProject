@@ -1,9 +1,9 @@
-package com.fastcampus.dto;
+package com.bank.dto;
 
 import java.sql.Timestamp;
 
-import com.fastcampus.domain.Post;
-import com.fastcampus.domain.User;
+import com.bank.domain.Post;
+import com.bank.domain.User;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

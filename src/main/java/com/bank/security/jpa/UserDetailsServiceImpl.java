@@ -1,4 +1,4 @@
-package com.fastcampus.security.jpa;
+package com.bank.security.jpa;
 
 import java.util.Optional;
 
@@ -9,8 +9,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.User;
-import com.fastcampus.persistence.UserRepository;
+import com.bank.domain.User;
+import com.bank.persistence.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

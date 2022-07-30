@@ -1,4 +1,4 @@
-package com.fastcampus.controller;
+package com.bank.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.fastcampus.dto.UserDto;
-import com.fastcampus.service.UserService;
+import com.bank.dto.UserDto;
+import com.bank.service.UserService;
 
 @Controller
 public class UserController {

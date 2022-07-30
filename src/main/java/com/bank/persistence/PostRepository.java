@@ -1,9 +1,9 @@
-package com.fastcampus.persistence;
+package com.bank.persistence;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.fastcampus.domain.Post;
+import com.bank.domain.Post;
 
 @Repository
 public interface PostRepository extends JpaRepository<Post, Integer> {

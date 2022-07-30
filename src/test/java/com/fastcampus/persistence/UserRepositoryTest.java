@@ -10,7 +10,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import com.fastcampus.domain.User;
+import com.bank.domain.User;
+import com.bank.persistence.UserRepository;
 
 @DataJpaTest
 public class UserRepositoryTest {

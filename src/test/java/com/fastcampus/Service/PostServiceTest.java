@@ -21,10 +21,10 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.Post;
-import com.fastcampus.dto.PostDto;
-import com.fastcampus.persistence.PostRepository;
-import com.fastcampus.service.PostService;
+import com.bank.domain.Post;
+import com.bank.dto.PostDto;
+import com.bank.persistence.PostRepository;
+import com.bank.service.PostService;
 
 
 @Transactional

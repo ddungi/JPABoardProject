@@ -1,4 +1,4 @@
-package com.fastcampus.security.jpa;
+package com.bank.security.jpa;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,7 +6,7 @@ import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.fastcampus.domain.User;
+import com.bank.domain.User;
 
 import lombok.Getter;
 import lombok.Setter;

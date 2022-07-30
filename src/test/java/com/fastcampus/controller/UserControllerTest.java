@@ -16,9 +16,10 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.fastcampus.domain.User;
-import com.fastcampus.dto.UserDto;
-import com.fastcampus.service.UserService;
+import com.bank.controller.UserController;
+import com.bank.domain.User;
+import com.bank.dto.UserDto;
+import com.bank.service.UserService;
 import com.google.gson.Gson;
 //@ExtendWith(MockitoExtension.class)
 @WebMvcTest(controllers =UserController.class)

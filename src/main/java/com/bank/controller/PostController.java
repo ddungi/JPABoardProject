@@ -1,4 +1,4 @@
-package com.fastcampus.controller;
+package com.bank.controller;
   
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.fastcampus.dto.PostDto;
-import com.fastcampus.security.jpa.UserDetailsImpl;
-import com.fastcampus.service.PostService;
+import com.bank.dto.PostDto;
+import com.bank.security.jpa.UserDetailsImpl;
+import com.bank.service.PostService;
 
 @Controller
 public class PostController {

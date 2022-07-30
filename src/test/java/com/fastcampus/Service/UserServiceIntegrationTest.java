@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fastcampus.domain.User;
-import com.fastcampus.dto.UserDto;
-import com.fastcampus.persistence.UserRepository;
-import com.fastcampus.service.UserService;
+import com.bank.domain.User;
+import com.bank.dto.UserDto;
+import com.bank.persistence.UserRepository;
+import com.bank.service.UserService;
 
 @SpringBootTest
 @Transactional
