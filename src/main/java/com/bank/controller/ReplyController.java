@@ -1,6 +1,5 @@
 package com.bank.controller;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.bank.dto.ReplyDto;
 import com.bank.security.jpa.UserDetailsImpl;
 import com.bank.service.ReplyService;
-
 
 @Controller
 public class ReplyController {

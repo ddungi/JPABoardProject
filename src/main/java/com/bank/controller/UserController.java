@@ -18,7 +18,6 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
-	//private UserDetailsServiceImpl userService;
 
 	// 로그인 화면으로 이동
 	@GetMapping("/auth/login")

@@ -25,7 +25,6 @@ public class PostController {
 	@Autowired
 	private PostService postService;
 	
-	
 	// 메인페이지 이동
 	@GetMapping({"", "/"})
 	public String getPostList(Model model, 
